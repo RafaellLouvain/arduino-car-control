@@ -8,18 +8,17 @@ Simulação de uma unidade de controle embarcada veicular baseada em Arduino, co
 
 O projeto é dividido em três controladores Arduino:
 
-                       +---------------------+
-                       |  Computador de Bordo|
-                       |     (Mestre I²C)     |
-                       +----------+----------+
-                                  |
-           +----------------------+----------------------+
-           |                                             |
-   +-------v------+                               +-----v------+
-   |   Powertrain  |                               |  Segurança |
-   |  (Escravo I²C)|                               |(Escravo I²C)|
-   +--------------+                               +------------+
-
+                     +---------------------+
+                     |  Computador de Bordo|
+                     |     (Mestre I²C)     |
+                     +----------+----------+
+                                |
+            +-------------------+-------------------+
+            |                                       |
+     +------v------+                         +------v------+
+     |  Powertrain  |                         |  Segurança  |
+     | (Escravo I²C)|                         |(Escravo I²C)|
+     +-------------+                         +-------------+
 
 ### 🔗 Comunicação
 - **Protocolo**: I²C
