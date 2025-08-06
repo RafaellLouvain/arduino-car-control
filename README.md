@@ -20,6 +20,7 @@ O projeto é dividido em três controladores Arduino:
      | (Escravo I²C)|                         |(Escravo I²C)|
      +-------------+                         +-------------+
 
+
 ### 🔗 Comunicação
 - **Protocolo**: I²C
 - **Mestre**: Computador de Bordo (`Wire.begin()`)
