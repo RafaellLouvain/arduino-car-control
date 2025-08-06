@@ -45,7 +45,7 @@ O projeto é dividido em três controladores Arduino:
 ### 🔹 Computador de Bordo
 - Recebe dados dos módulos via I²C
 - Exibe a velocidade no display LCD
-- Aciona alarmes (piezo e LEDs) com base nos dados
+- Aciona alarmes (LEDs e alertas sonoros) com base nos dados
 - Controla servo para simular trava de porta
 
 ---
